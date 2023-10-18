@@ -87,7 +87,7 @@ let Nav = () => {
         <>
            
                
-<nav className="navbar navbar-expand-lg navbar navbar-light" style = {{backgroundColor:"#e3f2fd"}}>
+<nav className="navbar navbar-expand-lg navbar navbar-light fixed-top" style = {{backgroundColor:"#e3f2fd"}}>
   <div className="container-fluid">
     <NavLink to = "/" className="navbar-brand m-auto px-5 fw-bold" style = {{letterSpacing:"0.2rem"}}>ShoppinglyX ;)</NavLink>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
