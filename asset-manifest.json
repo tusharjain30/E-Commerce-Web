@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/E-Commerce-Web/static/css/main.94680be5.css",
-    "main.js": "/E-Commerce-Web/static/js/main.12804b1c.js",
+    "main.js": "/E-Commerce-Web/static/js/main.29587870.js",
     "static/js/787.4fb5f8c8.chunk.js": "/E-Commerce-Web/static/js/787.4fb5f8c8.chunk.js",
     "static/media/img2.jpg": "/E-Commerce-Web/static/media/img2.c9044a11e2d01b76801c.jpg",
     "static/media/orangePuma.jpg": "/E-Commerce-Web/static/media/orangePuma.2ff7c1c32ea84d6439c7.jpg",
@@ -79,11 +79,11 @@
     "static/media/bluepuma1.avif": "/E-Commerce-Web/static/media/bluepuma1.a69094ba80b94c298d27.avif",
     "index.html": "/E-Commerce-Web/index.html",
     "main.94680be5.css.map": "/E-Commerce-Web/static/css/main.94680be5.css.map",
-    "main.12804b1c.js.map": "/E-Commerce-Web/static/js/main.12804b1c.js.map",
+    "main.29587870.js.map": "/E-Commerce-Web/static/js/main.29587870.js.map",
     "787.4fb5f8c8.chunk.js.map": "/E-Commerce-Web/static/js/787.4fb5f8c8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.94680be5.css",
-    "static/js/main.12804b1c.js"
+    "static/js/main.29587870.js"
   ]
 }
