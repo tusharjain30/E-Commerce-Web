@@ -96,7 +96,7 @@ let Nav = () => {
     <div className="collapse navbar-collapse m-auto" id="navbarSupportedContent">
       <ul className="navbar-nav ms-auto  mb-2 mb-lg-0">
         <li className="nav-item px-3">
-          <NavLink to = "/" className="nav-link active" aria-current="page" >Home</NavLink>
+          <NavLink to = "/" className="nav-link" aria-current="page" >Home</NavLink>
         </li>
         <li className="nav-item px-3">
           <NavLink to = "/about" className="nav-link">About</NavLink>

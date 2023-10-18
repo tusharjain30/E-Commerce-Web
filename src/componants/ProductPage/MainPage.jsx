@@ -1,7 +1,8 @@
-import React,{ useState } from "react";
+import React,{ useState} from "react";
 import styled from 'styled-components';
 import ProductComponant from "./ProductComponant";
 import ProductData from "./ProductData";
+
 
 // sidebar ------------------------->
 const Container = styled.div`
@@ -58,7 +59,7 @@ const Heading = styled.h3`
 // Items Page bar------------------------------->
 const Wrapper = styled.div`
     width: 70%;
-    margin: 3rem;
+    margin: 5rem 3rem;
 `;
 
 const RecommendHeading = styled.h5`
@@ -109,6 +110,7 @@ const Flex = styled.div`
 `;
 
 
+
 let MainPage = () => {
 
     const [item, setItem] = useState(ProductData);
@@ -123,13 +125,6 @@ let MainPage = () => {
     let CategoryFilter = (category) => {
         let updateItem = ProductData.filter((curVal) => {
             return curVal.category == category;
-        })
-        setItem(updateItem);
-    }
-
-    let Color = (color) => {
-        let updateItem = ProductData.filter((curVal) => {
-            return curVal.color == color;
         })
         setItem(updateItem);
     }
@@ -155,7 +150,7 @@ let MainPage = () => {
                             title = {curVal.title}
                             review = {curVal.reviews} 
                             prevPrice = {curVal.prevPrice} 
-                            newPrice = {curVal.newPrice}    
+                            newPrice = {curVal.newPrice}   
                             />
                     })
                 }
@@ -175,7 +170,7 @@ let MainPage = () => {
                     </Category>
   
                 </Container>
-
+             
         </>
     );
 };

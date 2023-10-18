@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 
 const Card = styled.div`
-    width: 15rem;
+    width: 20rem;
     height: 28rem;
     margin: 3rem auto;
 

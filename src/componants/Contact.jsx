@@ -29,6 +29,7 @@ const Heading = styled.h1`
     padding: 2rem 0;
     font-size: 1.8rem;
     font-weight: bold;
+    margin-top: 2rem;
 `;
 
 let Contact = () => {

@@ -62,6 +62,7 @@ const Row = styled.div`
 
 const CartTitle = styled.div`
     width: 90%;
+    margin-top: 3rem;
 
     @media only screen and (max-width: 450px){
         width: 100%;
