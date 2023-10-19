@@ -14,7 +14,7 @@ let App = () => {
     <>
 
       <Routes>
-          <Route exact path = "/" element = {<Home />}></Route>
+          <Route exact path = "/E-Commerce-Web" element = {<Home />}></Route>
           <Route exact path = "/contact" element = {<Contact />}></Route>
           <Route exact path = "/about" element = {<About />}></Route>
           <Route exact path = "/products" element = {<Products />}></Route>
