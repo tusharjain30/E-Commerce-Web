@@ -89,14 +89,14 @@ let Nav = () => {
                
 <nav className="navbar navbar-expand-lg navbar navbar-light fixed-top" style = {{backgroundColor:"#e3f2fd"}}>
   <div className="container-fluid">
-    <NavLink to = "/" className="navbar-brand m-auto px-5 fw-bold" style = {{letterSpacing:"0.2rem"}}>ShoppinglyX ;)</NavLink>
+    <NavLink to = "/E-Commerce-Web" className="navbar-brand m-auto px-5 fw-bold" style = {{letterSpacing:"0.2rem"}}>ShoppinglyX ;)</NavLink>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse m-auto" id="navbarSupportedContent">
       <ul className="navbar-nav ms-auto  mb-2 mb-lg-0">
         <li className="nav-item px-3">
-          <NavLink to = "/" className="nav-link" aria-current="page" >Home</NavLink>
+          <NavLink to = "/E-Commerce-Web" className="nav-link" aria-current="page" >Home</NavLink>
         </li>
         <li className="nav-item px-3">
           <NavLink to = "/about" className="nav-link">About</NavLink>
