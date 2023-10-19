@@ -10,7 +10,7 @@ let CategoryComponant = (props) => {
                             <img src={props.items.image} className="card-img-top" alt="..." style={{width:'100%'}}/>
                             <div className="card-body">
                                     <h5 className="card-title">{props.items.title}</h5>
-                                    <NavLink to = "products" className="btn btn-outline-primary">{props.items.btn}</NavLink>
+                                    <NavLink to = "/products" className="btn btn-outline-primary">{props.items.btn}</NavLink>
                             </div>
                     </div>
             </div>
